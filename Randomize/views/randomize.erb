@@ -1,0 +1,22 @@
+<h1> Team Randomizer Pro </h1>
+
+<form action="/" method="post">
+
+  <div>
+
+    <label for="names">Names</label>
+    <textarea id="names" name="names"></textarea>
+  </div>
+
+  <div>
+    <label for="number_of_teams">Number of Teams</label>
+    <input type="text" id="number_of_teams" name="number_of_teams">
+
+    <input type="submit" id="Randomize">
+  </div>
+
+<%= @names %>
+<hr>
+<%= @number_of_teams %>
+<hr>
+<%= @all_teams %>
